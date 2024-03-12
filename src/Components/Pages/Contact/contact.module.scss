@@ -1,0 +1,84 @@
+.contact {
+  background-image: url("https://i.hizliresim.com/486z8kp.jpg");
+  align-items: center;
+  justify-content: center;
+  // height: 150vh;
+  // width: 1348px;
+  // background-image: url(/_next/static/media/bg.0e05451f.png);
+  // background-position: center;
+  // background-size: 100% 100%;
+  height: 130vh;
+  width: 100%; 
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  font-family: Roboto, Helvetica, sans-serif;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.contactTittle {
+  margin-left: 5%;
+  margin-top: 3%;
+  font-weight: 400;
+  font-size: 40px;
+  padding-top: 15px;
+}
+.contactMenu {
+  display: flex;
+  margin-left: 5%;
+}
+.contactMenuTittle {
+  font-size: 28px;
+  font-weight: 410;
+}
+.contacts {
+  display: flex;
+}
+.contactPhone {
+  font-size: 22px;
+  color: #83c147;
+}
+.contactPhoneText {
+  font-size: 20px;
+  font-weight: 420;
+  margin-left: 5px;
+}
+.contactWhatsappPart {
+  // margin-top: 1%;
+  margin-left: 3%;
+}
+.contactWhatsapp {
+  color: #83c147;
+  font-size: 50px;
+}
+.message {
+  margin-top: 3%;
+}
+.contactMessage {
+  font-size: 16px;
+  color: #83c147;
+}
+.contactMessageText {
+  margin-left: 10px;
+}
+.location {
+  font-size: 30px;
+  color: #83c147;
+}
+.locationText {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10%;
+  padding: 0;
+}
+.contactLocation {
+  margin-left: 22%;
+}
+.line {
+  margin-top: 9%;
+  margin-left: 4%;
+}
+.map {
+  margin-left: 5%;
+  margin-top: 2%;
+}

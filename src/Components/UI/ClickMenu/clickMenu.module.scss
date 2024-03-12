@@ -1,0 +1,208 @@
+.clickMenu {
+  background-image: url("https://i.hizliresim.com/hn4ng4y.jpg");
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 1348px;
+  max-width: 100%;
+  background-position: center;
+  // background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: Roboto, Helvetica, sans-serif;
+  margin-top: 8%;
+  background-size: cover;
+}
+.mainStyle {
+  margin-top: 3%;
+}
+.tittle {
+  margin-left: 5%;
+  font-weight: 450;
+}
+.textStyle {
+  color: #83c147;
+}
+.imageStyle {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+  rotate: -20deg;
+}
+.clickButtons {
+  width: 650px;
+  height: 280px;
+  background-color: #edf6f3;
+  border-radius: 28px;
+  margin-left: 45%;
+  margin-top: 10%;
+}
+.clickButtonsMenu {
+  display: flex;
+}
+.firstPart {
+  padding-top: 5%;
+  margin-left: 10%;
+}
+.textConf {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 1%;
+}
+.button {
+  width: 530px;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 55px;
+  border-radius: 8px;
+  background-color: #83c147;
+  border: 1px solid #83c147;
+  color: white;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.buttonClick {
+  border: none;
+}
+.buttonClick:active,
+.buttonClick:focus {
+  border: none;
+}
+
+@media (max-width: 1200px) {
+  .clickMenu {
+    // width: 1000px;
+    width: 100%;
+    height: 100%;
+  }
+  .clickButtons {
+    margin-left: 30%;
+    margin-top: 20%;
+   }
+   .clickButtonsMenu {
+     display: flex;
+   }
+   .textConf {
+     font-size: 10px;
+     text-align: center;
+     margin-top: 1%;
+   }
+}
+@media (max-width: 1000px) {
+  .clickMenu {
+    // width: 768px;
+    width: 100%;
+    height: 100%;
+  }
+  .tittle{
+    font-size: 35px;
+    text-wrap: wrap;
+  }
+  .clickButtons {
+    margin-top: 25%;
+   margin-left: 10%;
+  }
+  .clickButtonsMenu {
+    display: flex;
+    
+  }
+  .textConf {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1%;
+  }
+}
+
+@media (max-width: 768px) {
+  .clickMenu {
+    // width: 580px;
+    width: 100%;
+    height: 100%;
+  }
+  .tittle{
+    font-size: 35px;
+    text-wrap: wrap;
+  }
+  .clickButtons {
+    width: 400px;
+    height: 100%;
+    margin-left: 22%;
+    margin-top: 25%;
+  }
+  .clickButtonsMenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .button{
+    width: 340px;
+    height: 55px;
+  }
+  .textConf {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1%;
+  }
+}
+
+@media (max-width: 480px) {
+  .clickMenu {
+    // width: 450px;
+    width: 100%;
+    height: 100%;
+  }
+  .tittle{
+    font-size: 28px;
+    text-wrap: wrap;
+  }
+  .clickButtons {
+    width: 400px;
+    height: 100%;
+    margin-left: 2%;
+    margin-top: 15%;
+  }
+  .clickButtonsMenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .button{
+    width: 340px;
+    height: 55px;
+  }
+  .textConf {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1%;
+  }
+}
+@media (max-width: 320px) {
+  .clickMenu {
+    // width: 320px;
+    width: 100%;
+    height: 100%;
+  }
+  .tittle{
+    font-size: 22px;
+    text-wrap: wrap;
+  }
+  .clickButtons {
+    width: 280px;
+    height: 100%;
+    margin-left: 1%;
+    margin-top: 15%;
+  }
+  .clickButtonsMenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .firstPart{
+    width: 240px;
+  }
+  .button{
+    width: 240px;
+    height: 55px;
+  }
+  .textConf {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1%;
+  }
+}

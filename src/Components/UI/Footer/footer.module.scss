@@ -1,0 +1,128 @@
+.footer {
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  max-width: 100%;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.footerHr {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.footerMenu {
+  display: flex;
+  height: 50vh;
+  margin-left: 8%;
+}
+.footerLogo {
+  grid-area: part1;
+}
+.footerImage {
+  width: 100px;
+  height: 100px;
+  margin-top: 5%;
+}
+.footerNavigation {
+  margin-left: 10%;
+  width: 280px;
+  grid-area: part2;
+}
+.footerNavigationList a li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: -12%;
+  color: rgb(66, 66, 66);
+}
+.footerNavigationList li:hover {
+  color: #83c147;
+}
+.footerService {
+  margin-left: 2%;
+  width: 280px;
+  grid-area: part3;
+}
+.footerContact {
+  margin-left: 4%;
+  width: 280px;
+  grid-area: part4;
+}
+.footerTittle {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 4%;
+}
+.politikaKonf {
+  color: #83c147;
+  margin-left: 5%;
+  font-size: 14px;
+}
+.services a li {
+  list-style: none;
+  list-style: none;
+  margin-left: -12%;
+  color: rgb(66, 66, 66);
+}
+.servicesContact li {
+  list-style: none;
+  list-style: none;
+  margin-left: -12%;
+  color: rgb(66, 66, 66);
+  margin-top: 4%;
+}
+.services li:active {
+  outline: none;
+  color: #88c74a;
+}
+
+.iconStyle {
+  color: #83c147;
+  font-size: 20px;
+}
+.mailLocationStyle {
+  margin-left: 2%;
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 280px) {
+  .footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerMenu {
+    grid-template-areas:
+      "part4 part1 part1 part1"
+      "part2 part2 part3 part3";
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Adjust columns as needed */
+  }
+}

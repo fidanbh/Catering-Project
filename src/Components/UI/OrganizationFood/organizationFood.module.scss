@@ -1,0 +1,392 @@
+.organizationKitchen {
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1348px;
+  font-family: Roboto, Helvetica, sans-serif;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.dostavkaStyleSecond {
+  background-image: url("https://i.hizliresim.com/486z8kp.jpg");
+  padding: 3%;
+}
+.dostavkaTittle {
+  margin-left: 5%;
+  //   margin-top: 5%;
+  font-weight: 530;
+}
+.dostavkaSpan {
+  color: #83c147;
+}
+.dostavkaText {
+  font-weight: bold;
+  margin-left: 5%;
+  width: 800px;
+}
+.dostavkaMenu {
+  margin-left: 6%;
+}
+.services {
+  height: 15vh;
+  margin-top: 5%;
+  display: flex;
+  margin-right: 3%;
+  margin-left: 2%;
+}
+.servicesPart {
+  height: 15vh;
+  margin-left: 2%;
+  // background-color: #edf6f3;
+  // padding: 1%;
+  border-radius: 22px;
+  font-size: 14px;
+}
+.numberStyle {
+  background-color: #83c147;
+  font-size: 42px;
+  font-weight: 600;
+  width: 70px;
+  height: 60px;
+  color: white;
+  text-align: center;
+  border-radius: 18px;
+  position: absolute;
+  // margin-top: 4%;
+  margin-left: 1%;
+}
+.textStyle {
+  margin-top: -5%;
+  position: relative;
+}
+.aboutDish {
+  margin-top: 25%;
+  text-align: center;
+  width: 1200px;
+  margin-left: 5%;
+}
+
+.openingKitchen {
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1348px;
+  font-family: Roboto, Helvetica, sans-serif;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.tittle {
+  margin-left: 5%;
+  font-weight: 410;
+  color: #494949;
+  font-size: 42px;
+  padding-top: 1%;
+}
+.spanText {
+  margin-top: -2%;
+  margin-left: 5%;
+  a {
+    color: #83c147;
+  }
+}
+.firstPartStyle {
+  background-image: url("/img/fon.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.firstPart {
+  display: flex;
+}
+.firstPartDiv {
+  width: 700px;
+  margin-left: 3%;
+  font-size: 14px;
+}
+.firstPartDivText {
+  font-weight: bolder;
+}
+.firstPartDivImage {
+  margin-left: 5%;
+  margin-top: -3%;
+}
+.firstPartImage {
+  width: 500px;
+  height: 330px;
+  border-radius: 12px;
+}
+.buttonStyle {
+  background-color: #83c147;
+  width: 250px;
+  height: 58px;
+  margin-left: 3%;
+  margin-top: 5%;
+  color: white;
+  box-shadow: 2px 2px #849474;
+  font-size: 16px;
+}
+.uslugiChast {
+  background-image: url("https://i.hizliresim.com/gtust5b.jpg");
+  border-radius: 18px;
+  width: 1100px;
+  height: 220px;
+  margin-left: 8%;
+  margin-top: 5%;
+  padding: 35px;
+  background-position: center;
+  background-size: 100% 100%;
+  font-size: 18px;
+  // background-repeat: no-repeat;
+}
+.textColor {
+  color: #83c147;
+}
+.uslugiKuxni {
+  display: flex;
+}
+.uslugiKuxniFirstPart {
+  width: 700px;
+  margin-left: 4%;
+  font-size: 18px;
+}
+.uslugiKuxniSecondPart {
+  width: 700px;
+  margin-left: 3%;
+  font-size: 18px;
+  margin-top: 1%;
+}
+.noSpacing {
+  margin: 0;
+  padding: 0;
+}
+.uslugiText {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.uslugiChastStyleMain {
+  width: 1100px;
+  margin-left: 8%;
+  margin-top: 2%;
+  padding: 22px;
+  height: 75px;
+  background-color: #83c147;
+  border-radius: 18px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+.uslugiChastStyle {
+  color: white;
+  font-size: 18px;
+}
+.perviy {
+  font-weight: bolder;
+}
+.posledniyeChasti {
+  margin-top: 3%;
+  background-color: rgb(239, 239, 241);
+  width: 1348px;
+  height: 850px;
+}
+.posledniyeChastiFirst {
+  display: flex;
+}
+.textStyle {
+  margin-top: 2%;
+  background-color: white;
+  height: 220px;
+  padding: 30px;
+  font-size: 15px;
+  border-radius: 18px;
+}
+.posledniyeChastitext {
+  width: 700px;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.posledniyeChastiImage img {
+  width: 350px;
+  height: 350px;
+  margin-top: 10%;
+  margin-left: 12%;
+}
+.textStyle1 {
+  width: 550px;
+  margin-left: 8%;
+  background-color: white;
+  border-radius: 18px;
+  height: 150px;
+  padding: 30px;
+  font-size: 14px;
+}
+.textStyle2 {
+  width: 550px;
+  margin-left: 12%;
+  background-color: white;
+  border-radius: 18px;
+  height: 150px;
+  padding: 30px;
+  font-size: 14px;
+}
+.pText {
+  width: 1000px;
+  margin-left: 8%;
+  font-size: 18px;
+  margin-top: -2%;
+}
+.parts {
+  //   display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 3%;
+  margin-left: 2%;
+  padding: 1%;
+  margin-top: 5%;
+}
+.mainBox {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 2%;
+  margin-left: 5%;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.partsBox:first-child {
+  margin-left: 0;
+}
+.partsBox {
+  background-color: #edf6f3;
+  width: 320px;
+  margin-left: 4%;
+  margin-top: 8%;
+  height: 120px;
+  border-radius: 22px;
+  padding: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+.partsBoxSix {
+  background-color: #83c147;
+  width: 320px;
+  margin-left: 4%;
+  margin-top: 8%;
+  height: 150px;
+  border-radius: 22px;
+
+  font-size: 14px;
+  text-align: center;
+}
+.numberStyle {
+  background-color: #83c147;
+  font-size: 42px;
+  font-weight: 600;
+  width: 70px;
+  height: 60px;
+  color: white;
+  text-align: center;
+  border-radius: 18px;
+  position: absolute;
+  margin-top: -5%;
+  margin-left: 2%;
+}
+// .secondDiv {
+//   position: absolute;
+//   margin-top: 5%;
+//   padding: 2%;
+//   height: 100px;
+// }
+.textPochemu {
+  font-weight: bolder;
+}
+
+.poslednayaChast {
+  background-image: url("https://i.hizliresim.com/sv9392n.jpg");
+  border-radius: 18px;
+  width: 1348px;
+  height: 450px;
+  object-fit: contain;
+  margin-top: 3%;
+}
+.poslednayaChastOpacity {
+  background-color: transparent;
+  background-image: linear-gradient(135deg, #ffffff 0%, #f9f9f97d 100%);
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.8s;
+}
+
+.uslugiDataStyle {
+  margin-left: 5%;
+  margin-right: 8%;
+}
+
+.obedKafeteriy {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 3%;
+  .obedKafeteriyFirst {
+    width: 50%;
+  }
+  .obedKafeteriySecond {
+    width: 45%;
+    margin-top: 4%;
+  }
+}
+.obedKafeteriyUl {
+  list-style: none;
+}
+.obedKafeteriyText {
+  margin-left: 5%;
+  margin-right: 3%;
+}
+.obedKafeteriyDisplay {
+  display: flex;
+  div {
+    margin-left: 1%;
+  }
+}
+.iconStyleObedKafeteriy {
+  color: #83c147;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nashiPreimushestva {
+  background-image: url("/img/fon1.jpg");
+  height: 500px;
+}
+.dostavkaLastPart {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 3%;
+  .dostavkaLastPartFirst {
+    width: 60%;
+  }
+  .dostavkaLastPartSecond {
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 3%;
+    background-color: #83c147;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .dostavkaLastPart {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .dostavkaLastPartFirst {
+    width: 100%;
+  }
+
+  .dostavkaLastPartSecond {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

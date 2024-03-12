@@ -1,0 +1,144 @@
+.topNavStyle {
+  // align-items: center;
+  // justify-content: center;
+  // height: 25vh;
+  // width: 1348px;
+  // background-position: center;
+  // background-size: 100% 100%;
+  // background-repeat: no-repeat;
+  padding: 2% 1%;
+  margin: 0;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.topNav {
+  // display: flex;
+  height: 15vh;
+  margin-left: 1%;
+  padding-bottom: 2%;
+  margin-top: -2%;
+  
+  &_logo span {
+    text-align: start;
+  }
+}
+.logoImage {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.topNav_logo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+}
+
+.topNav_list{
+margin-top: -2%;
+}
+.topNav_list li {
+  text-decoration: none;
+  display: inline-block;
+}
+.line {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+.adressListLi {
+  margin-left: 5%;
+}
+.adressList {
+  display: flex;
+  width: 210px;
+  height: 100%;
+}
+.adressPart2 {
+  margin-left: 10px;
+}
+.whatsappStyleLi {
+  margin-left: 2%;
+  margin-top: -15%;
+}
+.whatsappStyle {
+  display: flex;
+}
+
+.location {
+  color: #83c147;
+  font-size: 35px;
+  margin-top: 20%;
+}
+.contactStyleLi {
+  margin-left: 5%;
+}
+.contactStyle {
+  width: 250px;
+}
+.dotsStyle {
+  color: #83c147;
+  font-size: 18px;
+}
+.phoneStyle {
+  color: #83c147;
+  font-size: 24px;
+}
+.phoneStyleText {
+  font-size: 24px;
+  font-weight: 450;
+}
+.buttonCall {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  button {
+    border: 2px solid #83c147;
+    color: #83c147;
+    background-color: white;
+    height: 55px;
+    width: 220px;
+  }
+}
+.Navbarlists {
+  margin-left: 1%;
+}
+.listOfNav a li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 7%;
+  color: #83c147;
+  font-size: 18px;
+}
+.whatsappImage {
+  color: #83c147;
+  font-size: 28px;
+}
+.blogPagesLi {
+  visibility: hidden;
+  position: absolute;
+}
+.uslugiStil {
+  // height: 35vh;
+  // width: 40vh;
+  height: 35vh;
+  max-width: 40vh;
+  background-color: white;
+  position: fixed;
+  top: 30%;
+  left: 20%;
+  background-color: #fff;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  position: absolute;
+  z-index: 100;
+  font-size: 12px;
+  color: #83c147;
+  padding: auto;
+}
+.uslugiStilUl {
+  margin-top: 5%;
+}
+.uslugiStilUl li a {
+  font-size: 14px;
+  color: #83c147;
+}
